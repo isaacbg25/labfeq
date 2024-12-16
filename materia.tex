@@ -1,41 +1,57 @@
-\documentclass[11pt]{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{hyperref}
-\usepackage[utf8]{inputenc}
-\usepackage{multirow}
-\usepackage{subcaption}
-\usepackage{booktabs}
-\usepackage{bookmark}
-\usepackage{graphicx}
-\usepackage{setspace}
-\setlength{\parindent}{0in}
-\usepackage{physics}
-\usepackage{tikz}
-\usepackage{tikz-3dplot}
-\usepackage[outline]{contour} % glow around text
-\usepackage{xcolor}
-\usepackage{float}
-\usepackage{makeidx}
+\documentclass[10pt, twoside]{article}
 \usepackage{fancyhdr}
-\usepackage{pgfplots}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.18}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[catalan]{babel}
+\usepackage[titles]{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.15cm, right=2.15cm, top=30mm, bottom=20mm]{geometry}
+\usepackage{parskip}
+\setlength{\parindent}{0pt} % Elimina la sangría de la primera línea de cada párrafo
+\usepackage{titlesec}
+\usepackage{bookmark}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{hyperref}
+\usepackage{float}
 \usepackage{caption}
-\usepackage[english,catalan]{babel}
-\setlength{\parskip}{11pt}
-\usepackage{xcolor}
-\usepackage{listings}
 
-\title{\Huge\bfseries Pràctica: balanç de matèra \\ [2ex] \Large}
-\author{\begin{tabular}{c}
-\textbf{TORN 2, GRUP B} \\
-NOM (NIU)
-NOM2
-\end{tabular}}
+\captionsetup{labelfont=bf}
 
-\date{13/12/2024}
+\begin{document}
+
+\begin{titlepage}
+\centering
+{\Large Fonaments d'Enginyeria Química \\ MO70399 \par}
+\vspace{2cm}
+{\Huge \textbf{Pràctica 1:} \par}
+\vspace{1cm}
+{\Huge \textbf{Balanç de matèria} \par}
+\vspace{2cm}
+{\Large Grup B \par}
+\vspace{0.5cm}
+{\Large Torn 2 \par}
+\vspace{0.5cm}
+{\normalsize Baldi Garcia, Isaac: 1667260 \\ Barbens Calzadilla, Carla: 1666167 \\ Belmonte Leiva, Marc: 1619451 \\ Bujones Umbert, Jun Shan: 1549086 \\ Franco Avilés, Eric: 1666739 \\ Gómez Rubio, Miquel: 1668850 \\ González Barea, Eric: 1672980 \\ Jacas García, Eira: 1666616 \\ I NOMBRE DE PÀGINES AAAAAA\par}
+\vspace{2cm}
+{\Large Gener 2025 \par}
+\vspace{2cm}
+\includegraphics[width=0.4\textwidth]{Logo_UAB.png}
+
+\end{titlepage}
+
+\pagenumbering{gobble}
+\renewcommand{\cftsecfont}{}
+\renewcommand{\cftsecpagefont}{}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdotsep}{0.2}
+\setlength{\cftbeforesecskip}{0.5em}
+\setlength{\cftbeforesubsecskip}{0.5em}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \begin{document}
 
