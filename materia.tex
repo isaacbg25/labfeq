@@ -8,13 +8,29 @@
 \usepackage{parskip}
 \setlength{\parindent}{0pt} % Elimina la sangría de la primera línea de cada párrafo
 \usepackage{titlesec}
-\usepackage{bookmark}
-\usepackage{multirow}
-\usepackage{graphicx}
-\usepackage{physics}
 \usepackage{hyperref}
 \usepackage{float}
 \usepackage{caption}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage[outline]{contour} % glow around text
+\usepackage{xcolor}
+\usepackage{makeidx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{caption}
+\setlength{\parskip}{11pt}
+\usepackage{listings}
 
 \captionsetup{labelfont=bf}
 
@@ -27,7 +43,7 @@
 {\Huge \textbf{Pràctica 1:} \par}
 \vspace{1cm}
 {\Huge \textbf{Balanç de matèria} \par}
-\vspace{2cm}
+\vspace{1cm}
 {\Large Grup B \par}
 \vspace{0.5cm}
 {\Large Torn 2 \par}
@@ -53,12 +69,13 @@
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\begin{document}
+\pagestyle{fancy}
+\lhead{\textbf{Pràctica 1: Balanç de matèria}}
+\rhead{\textbf{Fonaments d'Enginyeria Química}}
 
-
-
-\section{Abstract}
+\begin{abstract}
 En aquesta pràctica, el nostre objectiu era aplicar el balanç de matèria a un reactor de tanc agitat per on circula aigua mantenint el volum constant. Primerament, hem hagut de construir dues rectes de calibratge per poder relacionar les mesures insturmentals amb les dades que ens interessàva estudiar. Segonament, hem muntat un sistema en què podiem mesurar la variació de la concentració de sal d'una dissolució aquosa en el reactor en operació en continu. Així hem pogut comparar els resultats teòrics amb els experimentals.
+\end{abstract}
 
 \section{Calibratge}
 Per dur a terme l'experiment primer hem calibrat els instruments que ho necessitaven, en aquest cas, la bomba i el conductímetre. 
@@ -68,7 +85,7 @@ Per calibrar el conductímetre hem preparat 7 dissolucions de sal i aigua de l'a
 
 GRAFIC I TAULA
 
-Usant el programari Excel\copyright hem construit aquest gràfic i n'hem generat l'equació de la recta.
+Usant el programari Excel\copyright  hem construit aquest gràfic i n'hem generat l'equació de la recta.
 Aquesta recta ens servira per trobar els valors de la concentració de sal dins del tanc a partir de les dades conductiomètriques.
 
 \subsection{Corba de calibratge: cabal volumètric - revolucions per minut bomba}
@@ -82,42 +99,66 @@ Aquesta recta ens servira per trobar els valors del cabal d'entrada a partir del
 \section{Resultats experimentals}
 
 \subsection{Volum del tanc}
-Hem mesurat el volum del tanc: \fbox{$V=4L$}
+Hem mesurat el volum del tanc: $\fbox{V=4L}$
 
 Massa sal perquè concentració dins tanc sigui 40g/L: \fbox{$m_{sal} = 160g$}
 
 \subsection{Temps de residència}
 Temps de residència cabal=270.16 mL/min calculat: \fbox{$\tau= 888.38s$}
+
 Temps de residència cabal=491.42 mL/min calculat: \fbox{$\tau = 488.39s$}
+
 Temps de residència obtingut experimentalment: \fbox{$\tau_{regressió}=resultat$}
 
-$Error relatiu de \tau_{Q_L = 270.16 mL/min} = \fbox{RESULTAT}$
-$Error relatiu de \tau_{Q_L = 491.42.16 mL/min} = \fbox{RESULTAT}$
+Error relatiu de $\tau_{Q_L = 270.16 mL/min} = \fbox{RESULTAT}$
+
+Error relatiu de $\tau_{Q_L = 491.42 mL/min} = \fbox{RESULTAT}$
 
 \subsection{Concentració del cabal de sortida}
 
-GRAFICS CONCENTRACIO
+\begin{figure}[hbt!]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{conc300.png}
+        \caption{Concentració al llarg del temps per al cabal de 300 L/min (exp:270 L/min).}
+        \label{fig:conc300}
+    \end{subfigure}
+    \hspace{0.025\textwidth}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{conc500.png}
+        \caption{Concentració al llarg del temps per al cabal de 500 L/min (exp:491 L/min).}
+        \label{fig:conc500}
+    \end{subfigure}
+    \caption{Concentració cabal de sortida}
+    \label{fig:concs}
+\end{figure}
+
+Observem la figura \ref{fig:concs} a
 
 \begin{figure}[hbt!]
     \centering
-    \begin{subfigure}{0.3\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{error300.png}
-        \caption{Error relatiu per al cabal de 300 L/min (exp:270 L/min).}
+        \caption{Error relatiu per al cabal de 300 L/min (exp: 270.16 L/min).}
         \label{fig:error300}
     \end{subfigure}
     \hspace{0.025\textwidth}
-    \begin{subfigure}{0.3\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{error500.png}
-        \caption{Error relatiu per al cabal de 500 L/min (exp:491 L/min).}
+        \caption{Error relatiu per al cabal de 500 L/min (exp: 491.42 L/min).}
         \label{fig:error500}
     \end{subfigure}
+    \caption{Error relatiu concentració cabal de sortida}
+    \label{fig:errors}
 \end{figure}
 
+Observem la figura \ref{fig:errors} a
+
 \section{Conclusions}
-
-
 
 \section*{Annex}
 
@@ -138,7 +179,7 @@ En aquesta pràctica hem considerat que el reactor de tanc agitat és ideal i, p
 També hem considerat que la concentració de sal de l'aigua de l'aixeta és tan petita que la podem despreciar. Per tant $c_{ref} = 0$.
 
 Amb el volum del reactor ja podem calcular la quantitat de sal que necessitem perquè la concentració inicial dins del tanc sigui de $40g/L$. 
-    $m_{sal} = V_{tanc}\frac{40g sal}{1L} = \fbox{resultat}$
+    $m_{sal} = V_{tanc}\frac{40g sal}{1L} = \fbox{160g sal}$
 Amb el volum del tanc també podem calcular el temps de residència teòric per cada cabal.
     $\tau = V\frac{V}{Q_L}$
 
@@ -152,17 +193,13 @@ on $c_{j_1}$ és la concentració del cabal d'entrada. En aquest cas, és la con
 Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
 
 Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència. 
-    $\tau_{regressió}=\fbox{resultat}$
+    \fbox{$\tau_{regressió} = resultat$}
 
 Estudiem les diferències calculant l'error relatiu de les concentracions i del temps de residència, expressem el resultats en percentatges.
 
-\begin{equation}
-    Error relatiu de c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100
-\end{equation}
+Error  relatiu  de  $c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100$
 
-\begin{equation}
-    Error relatiu de \tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100
-\end{equation}
+Error relatiu de $\tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100$
 
 TAULA ERRORS RELATIUS CONCENTRACIó
 
