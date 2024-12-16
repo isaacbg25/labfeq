@@ -31,7 +31,7 @@ set key right
 set xlabel "temps (s)"
 set ylabel "error relatiu concentració (%)"
 
-set xrange[0:2340]
+set xrange[0:1440]
 set yrange[0:100]
 
 set title "Error relatiu concentració pel cabal de 500 L/min"
