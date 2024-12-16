@@ -64,20 +64,56 @@ En aquesta pràctica ens proposem estudiar els balaços d'energia calorífica ap
 \end{abstract}
 
 \section{Resultats i discussió}
+\subsection{Calibratge de la bomba}
+\begin{table}[h!]
+    \centering
+    \caption{Resultats obtinguts en el calibratge de la bomba.}
+    \label{tab1}
+    \begin{tabular}{|c|c|c|} % Estructura de columnas
+    \hline
+    Revolucions per minut (rpm) & Volum (mL) & Cabal (mL/min) \\ \hline
+    90       & 625       & 208.33       \\ \hline
+    110      & 760       & 253.33       \\ \hline
+    130      & 910       & 303.33       \\ \hline
+    \end{tabular}
+\end{table}
+    
+\subsection{Mesura del volum del tanc}
+Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'annex s'explica en què consisteix cadascun dels dos mètodes.}:
+\begin{itemize}
+    \item \textbf{Mètode 1: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1595.00 \text{ mL}}$.
+    \item \textbf{Mètode 2: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1637.98 \text{ mL}}$.
+    \item \textbf{Volum promig: } $\boxed{V = 1616.49 \text{ mL}}$.
+\end{itemize}
+
+
+\section{Resultats i discussió}
 Abans de començar amb la part experimental cal que, prèviament, calibrem la bomba, per tal de conèixer quins cabals es corresponen amb cada valor de rpm's de la bomba, i mesurem el volum del tanc.
 
 \subsection{Calibratge de la bomba d'entrada}
-Per calibrar la bomba hem fet un seguit de mesures dels cabals corresponents als valors de revolucions per minut (rpm) donats per la bomba, tot calculant la quanitat de volum expedida en un temps de 3 minuts
-\begin{equation}
-    Q_L = \frac{V}{t}
-\end{equation}
-Els resultats del calibratge es poden veure a \ref{fig1}
-\begin{figure}
-    \includegraphics{calbomba.png}
+L'objectiu del calibratge és trobar per quins valors de rpm aconseguim treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$. 
+
+Per calibrar la bomba hem fet un seguit de mesures dels volums corresponents als valors de revolucions per minut (rpm) donats per la bomba. Els valors obtinguts es poden veure a \ref{fig1}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{calbomba.png}
     \caption{Resultats del calibratge de la bomba.}
     \label{fig1}
 \end{figure}
+
+L'equació obtinguda amb els nostres punts experimentals 
+és $y=7.0893x-16.071$, amb una $R^2$ de 0.9995, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
+
+A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut donades per la bomba, usant que
+
+\begin{equation}
+    Q_L = \frac{V}{t}
+\end{equation}
+
+
 \subsection{Mesura del volum del tanc}
+
 
 \section{Conclusions}
 
