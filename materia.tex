@@ -80,42 +80,31 @@ Usant el programari Excel\copyright hem construit aquest gràfic i n'hem generat
 Aquesta recta ens servira per trobar els valors del cabal d'entrada a partir dels rpm de la bomba.
 
 \section{Resultats experimentals}
+
+\subsection{Volum del tanc}
 Hem mesurat el volum del tanc: \fbox{$V=4L$}
 
+<<<<<<< HEAD
 Massa sal perquè concentració dins tanc sigui 40g/L: \fbox{$m_{sal} = 160g$}
+=======
+\subsection{Massa sal inicial}
+Massa sal perquè concentració dins tanc sigui 40g/L: $m_{sal} = \fbox{resultat}$
+>>>>>>> 2f30bf5a0bffc80c899b1220577d2c4bccecdd1f
 
-Temps de residència calculat: \fbox{$\tau = resultat$}
+\subsection{Temps de residència}
+Temps de residència cabal=270.16 mL/min calculat: $\fbox{\tau= 888.38s}$
+Temps de residència cabal=491.42 mL/min calculat: $\tau = \fbox{488.39s}$
+Temps de residència obtingut experimentalment: $\tau_{regressió}=\fbox{resultat}$
 
-Temps de residència obtingut experimentalment: \fbox{$\tau_{regressió} = resultat$}
+$Error relatiu de \tau_{Q_L = 270.16 mL/min} = \fbox{RESULTAT}$
+$Error relatiu de \tau_{Q_L = 491.42.16 mL/min} = \fbox{RESULTAT}$
 
-gràfic
-
-\subsection{Comparació entre valors teòrics i experimentals}
-
-TEMPS DE residència
-
-CONCENTRACIO A 3*tau
-
-En les següents gràfiques podem observar l'error relatiu entre la concentració teòrica i l'obtinguda experimentalment a mesura que avaça el temps:
-
-\begin{figure}[hbt!]
-    \centering
-    \begin{subfigure}{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{error300.png}
-        \caption{Error relatiu per al cabal de 300 L/min (exp:270 L/min).}
-        \label{fig:error300}
-    \end{subfigure}
-    \hspace{0.025\textwidth}
-    \begin{subfigure}{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{error500.png}
-        \caption{Error relatiu per al cabal de 500 L/min (exp:491 L/min).}
-        \label{fig:error500}
-    \end{subfigure}
-\end{figure}
+\subsection{Concentració del cabal de sortida}
+CONCENTRACIó a  3*tau AIXÒ ESTÀ FET! NO TOCAR
 
 \section{Conclusions}
+
+
 
 \section*{Annex}
 
@@ -151,5 +140,19 @@ Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
 
 Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència. 
     $\tau_{regressió}=\fbox{resultat}$
+
+Estudiem les diferències calculant l'error relatiu de les concentracions i del temps de residència, expressem el resultats en percentatges.
+
+\begin{equation}
+    Error relatiu de c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100
+\end{equation}
+
+\begin{equation}
+    Error relatiu de \tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100
+\end{equation}
+
+TAULA ERRORS RELATIUS CONCENTRACIó
+
+A partir d'aquesta taula, hem construit el gràfic presentat a l'informe.
 
 \end{document}
