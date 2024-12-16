@@ -80,7 +80,26 @@ gràfic
 
 TEMPS DE residència
 
-CONCENTRACIó a  3*tau
+CONCENTRACIO A 3*tau
+
+En les següents gràfiques podem observar l'error relatiu entre la concentració teòrica i l'obtinguda experimentalment a mesura que avaça el temps:
+
+\begin{figure}[hbt!]
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{error300.png}
+        \caption{Error relatiu per al cabal de 300 L/min (exp:270 L/min).}
+        \label{fig:error300}
+    \end{subfigure}
+    \hspace{0.025\textwidth}
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{error500.png}
+        \caption{Error relatiu per al cabal de 500 L/min (exp:491 L/min).}
+        \label{fig:error500}
+    \end{subfigure}
+\end{figure}
 
 \section{Conclusions}
 
@@ -118,8 +137,5 @@ Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
 
 Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència. 
     $\tau_{regressió}=\fbox{resultat}$
-
-
-
 
 \end{document}
