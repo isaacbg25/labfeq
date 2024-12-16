@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1734365076.75579 "c:/Users/W10/Documents/GitHub/labfeq/prac_balanç_energia/benergia.tex" "benergia.pdf" "benergia" 1734365078.16674 0
+["pdflatex"] 1734378269.08759 "c:/Users/W10/Documents/GitHub/labfeq/prac_balanç_energia/benergia.tex" "benergia.pdf" "benergia" 1734378271.73117 0
   "C:/Users/W10/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1734334486 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/W10/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1708415762 11548 43dc32cf1ee7391c3524b133ece6c0c3 ""
   "C:/Users/W10/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1734298932 24140965 d1c9f359ed36295fd7327ae286d6cef4 ""
@@ -111,10 +111,10 @@
   "C:/Users/W10/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/W10/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Logo_UAB.png" 1734293994 13234 625c1691be58ba47ff71434956c6b32e ""
-  "benergia.aux" 1734365077 4662 43f44bb37986cbad8c97ea10e15c65af "pdflatex"
-  "benergia.tex" 1734365075 4627 60249e501accc36344a7b6603b0ef5ff ""
-  "benergia.toc" 1734365077 687 e96abe33e9b6c1f15f502b80c69634c8 "pdflatex"
-  "c:/Users/W10/Documents/GitHub/labfeq/prac_balanç_energia/benergia.tex" 1734365075 4627 60249e501accc36344a7b6603b0ef5ff ""
+  "benergia.aux" 1734378271 3924 c450676190083b4202a0b9cdc82bf498 "pdflatex"
+  "benergia.tex" 1734378264 4643 c07b734cb0ad49d124eb133e65e1a0f1 ""
+  "benergia.toc" 1734378271 525 ec340052152739410018a7d60ab306dc "pdflatex"
+  "c:/Users/W10/Documents/GitHub/labfeq/prac_balanç_energia/benergia.tex" 1734378264 4643 c07b734cb0ad49d124eb133e65e1a0f1 ""
   "calbomba.png" 1734362351 37220 11d62a10a30ffd4a6646786c4ab1eb11 ""
   (generated)
   "benergia.aux"
