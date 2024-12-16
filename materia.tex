@@ -1,41 +1,57 @@
-\documentclass[11pt]{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{hyperref}
-\usepackage[utf8]{inputenc}
-\usepackage{multirow}
-\usepackage{subcaption}
-\usepackage{booktabs}
-\usepackage{bookmark}
-\usepackage{graphicx}
-\usepackage{setspace}
-\setlength{\parindent}{0in}
-\usepackage{physics}
-\usepackage{tikz}
-\usepackage{tikz-3dplot}
-\usepackage[outline]{contour} % glow around text
-\usepackage{xcolor}
-\usepackage{float}
-\usepackage{makeidx}
+\documentclass[10pt, twoside]{article}
 \usepackage{fancyhdr}
-\usepackage{pgfplots}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.18}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[catalan]{babel}
+\usepackage[titles]{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.15cm, right=2.15cm, top=30mm, bottom=20mm]{geometry}
+\usepackage{parskip}
+\setlength{\parindent}{0pt} % Elimina la sangría de la primera línea de cada párrafo
+\usepackage{titlesec}
+\usepackage{bookmark}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{hyperref}
+\usepackage{float}
 \usepackage{caption}
-\usepackage[english,catalan]{babel}
-\setlength{\parskip}{11pt}
-\usepackage{xcolor}
-\usepackage{listings}
 
-\title{\Huge\bfseries Pràctica: balanç de matèra \\ [2ex] \Large}
-\author{\begin{tabular}{c}
-\textbf{TORN 2, GRUP B} \\
-NOM (NIU)
-NOM2
-\end{tabular}}
+\captionsetup{labelfont=bf}
 
-\date{13/12/2024}
+\begin{document}
+
+\begin{titlepage}
+\centering
+{\Large Fonaments d'Enginyeria Química \\ MO70399 \par}
+\vspace{2cm}
+{\Huge \textbf{Pràctica 1:} \par}
+\vspace{1cm}
+{\Huge \textbf{Balanç de matèria} \par}
+\vspace{2cm}
+{\Large Grup B \par}
+\vspace{0.5cm}
+{\Large Torn 2 \par}
+\vspace{0.5cm}
+{\normalsize Baldi Garcia, Isaac: 1667260 \\ Barbens Calzadilla, Carla: 1666167 \\ Belmonte Leiva, Marc: 1619451 \\ Bujones Umbert, Jun Shan: 1549086 \\ Franco Avilés, Eric: 1666739 \\ Gómez Rubio, Miquel: 1668850 \\ González Barea, Eric: 1672980 \\ Jacas García, Eira: 1666616 \\ I NOMBRE DE PÀGINES AAAAAA\par}
+\vspace{2cm}
+{\Large Gener 2025 \par}
+\vspace{2cm}
+\includegraphics[width=0.4\textwidth]{Logo_UAB.png}
+
+\end{titlepage}
+
+\pagenumbering{gobble}
+\renewcommand{\cftsecfont}{}
+\renewcommand{\cftsecpagefont}{}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdotsep}{0.2}
+\setlength{\cftbeforesecskip}{0.5em}
+\setlength{\cftbeforesubsecskip}{0.5em}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \begin{document}
 
@@ -50,7 +66,6 @@ Per dur a terme l'experiment primer hem calibrat els instruments que ho necessit
 \subsection{Recta de calibratge: concentració sal - conductiivitat dissolució}
 Per calibrar el conductímetre hem preparat 7 dissolucions de sal i aigua de l'aixeta de diferents concentracions conegudes equiespaiades entre 0 g/L i 42 g/l. Després hem mesurat la conductivitat de cada dissolució i hem construit la següent taula.
 
-
 GRAFIC I TAULA
 
 Usant el programari Excel\copyright hem construit aquest gràfic i n'hem generat l'equació de la recta.
@@ -58,7 +73,6 @@ Aquesta recta ens servira per trobar els valors de la concentració de sal dins 
 
 \subsection{Corba de calibratge: cabal volumètric - revolucions per minut bomba}
 Per calibrar la bomaba hem mesurat els volums d'aigua durant un període de temps determinat, fixant en cada mesura els rpm de la bomba i hem construit la següent taula.
-
 
 GRAFIC I TAULA
 
@@ -68,11 +82,11 @@ Aquesta recta ens servira per trobar els valors del cabal d'entrada a partir del
 \section{Resultats experimentals}
 Hem mesurat el volum del tanc: \fbox{$V=4L$}
 
-Massa sal perquè concentració dins tanc sigui 40g/L: $m_{sal} = \fbox{resultat}$
+Massa sal perquè concentració dins tanc sigui 40g/L: \fbox{$m_{sal} = 160g}
 
-Temps de residència calculat: $\tau = \fbox{resultat}$
+Temps de residència calculat: \fbox{$\tau = resultat$}
 
-Temps de residència obtingut experimentalment: $\tau_{regressió}=\fbox{resultat}$
+Temps de residència obtingut experimentalment: \fbox{$\tau_{regressió} = resultat$}
 
 gràfic
 
