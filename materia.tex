@@ -80,21 +80,77 @@ En aquesta pràctica, el nostre objectiu era aplicar el balanç de matèria a un
 \section{Calibratge}
 Per dur a terme l'experiment primer hem calibrat els instruments que ho necessitaven, en aquest cas, la bomba i el conductímetre. 
 
-\subsection{Recta de calibratge: concentració sal - conductiivitat dissolució}
-Per calibrar el conductímetre hem preparat 7 dissolucions de sal i aigua de l'aixeta de diferents concentracions conegudes equiespaiades entre 0 g/L i 42 g/l. Després hem mesurat la conductivitat de cada dissolució i hem construit la següent taula.
+\subsection{Recta de calibratge: concentració sal - conductivitat dissolució}
 
-GRAFIC I TAULA
 
-Usant el programari Excel\copyright  hem construit aquest gràfic i n'hem generat l'equació de la recta.
-Aquesta recta ens servira per trobar els valors de la concentració de sal dins del tanc a partir de les dades conductiomètriques.
+\begin{figure}[hbt!]
+    \centering
+    % Primera part: Imatge en una minipage
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{calisal.png} % Substitueix per la teva imatge
+        \caption{Recta de calibratge del Conductímetre}
+        \label{fig:calisal}
+    \end{minipage}%
+    \hfill 
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \captionof{table}{Calibratge del conductímetre}
+        \label{tab:calisal}
+        \begin{tabular}{|l|c|r|}
+            \hline
+            Conductivitat (mS)	&	Massa sal (g)	\\ \hline
+            0,626	&	0,000	\\ \hline
+            13,87	&	0,700	\\ \hline
+            25,7	&	1,410	\\ \hline
+            35,8	&	2,118	\\ \hline
+            47,2	&	2,810	\\ \hline
+            56,1	&	3,502	\\ \hline
+            65,5	&	4,213	\\ \hline
+                          
+        \end{tabular}
+    \end{minipage}
+
+\end{figure}
+
+
 
 \subsection{Corba de calibratge: cabal volumètric - revolucions per minut bomba}
-Per calibrar la bomaba hem mesurat els volums d'aigua durant un període de temps determinat, fixant en cada mesura els rpm de la bomba i hem construit la següent taula.
 
-GRAFIC I TAULA
+\begin{figure}[hbt!]
+    \centering
+    % Primera part: Imatge en una minipage
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{calibomba.png} % Substitueix per la teva imatge
+        \caption{Recta de calibratge de la bomba}
+        \label{fig:calibomba}
+    \end{minipage}%
+    \hfill 
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \captionof{table}{Calibratge de la Bomba}
+        \label{tab:calibomba}
+        \begin{tabular}{|l|c|r|}
+            \hline
+            rpm	&	Cabal (mL/min)	\\ \hline
+            150	&	566,6666667	\\ \hline
+            140	&	516,6666667	\\ \hline
+            135	&	516,6666667	\\ \hline
+            130	&	500	\\ \hline
+            125	&	483,3333333	\\ \hline
+            100	&	400	\\ \hline
+            70	&	275	\\ \hline
+            75	&	300	\\ \hline
+                          
+        \end{tabular}
+    \end{minipage}
 
-Usant el programari Excel\copyright hem construit aquest gràfic i n'hem generat l'equació de la recta.
-Aquesta recta ens servira per trobar els valors del cabal d'entrada a partir dels rpm de la bomba.
+\end{figure}
+
+
+Usant el programari Gnuplot$\copyright$ hem construit aquests gràfics i n'hem generat les equacions de la recta de regressió.
+Aquesta recta ens servira en el primer cas per ajustar el cabal a partir de les revolucions de la bomba i en el segon cas per trobar els valors de la concentració de sal dins del tanc a partir de les dades conductiomètriques
 
 \section{Resultats experimentals}
 
@@ -138,6 +194,21 @@ Error relatiu de $\tau_{Q_L = 491.42 mL/min} = \fbox{8,132 \%}$
 \end{figure}
 
 Observem la figura \ref{fig:concs} a
+
+A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
+
+\begin{minipage}{\textwidth}
+    \centering
+    \captionof{table}{Concentracions a temps 3\tau}
+    \label{tab:calibomba}
+    \begin{tabular}{|l|c|c|r|}
+        \hline
+        cabal       &	C_{teòrica}	&	C_{exp}	    &   Error relatiu	\\ \hline
+        cabal=500	&	2,837248504	&	1,73982068	&	38,68$\%$	\\ \hline
+        cabal=300	&	2,078515395	&	1,315083715	&	36,73$\%$	\\ \hline
+
+    \end{tabular}
+\end{minipage}
 
 \begin{figure}[hbt!]
     \centering
