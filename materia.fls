@@ -345,9 +345,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT ./materia.aux
-INPUT ./materia.aux
-INPUT materia.aux
 OUTPUT materia.aux
 OUTPUT materia.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii

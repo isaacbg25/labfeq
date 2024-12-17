@@ -7,5 +7,5 @@
 \contentsline {subsection}{\numberline {2.2}Temps de residència}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Concentració del cabal de sortida}{2}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Conclusions}{3}{section.3}%
-\contentsline {section}{\numberline {A}Taules dades experimentals}{3}{appendix.A}%
-\contentsline {section}{\numberline {B}Hipòtesis i càlculs}{3}{appendix.B}%
+\contentsline {section}{\numberline {A}Taules dades experimentals}{4}{appendix.A}%
+\contentsline {section}{\numberline {B}Hipòtesis i càlculs}{4}{appendix.B}%

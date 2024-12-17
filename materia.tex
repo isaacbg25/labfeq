@@ -193,8 +193,6 @@ Error relatiu de $\tau_{Q_L = 491.42 mL/min} = \fbox{8,132 \%}$
     \label{fig:concs}
 \end{figure}
 
-Observant la figura \ref{fig:concs} a
-
 A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
 
 \begin{minipage}{\textwidth}
@@ -203,36 +201,38 @@ A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
     \label{tab:calibomba}
     \begin{tabular}{|l|c|c|r|}
         \hline
-        cabal       &	C_{teòrica}	&	C_{exp}	    &   Error relatiu	\\ \hline
+        cabal       &	C_{teòrica} (g/L)	&	C_{exp} (g/L)	    &   Error relatiu	\\ \hline
         cabal=500	&	2,837248504	&	1,73982068	&	38,68$\%$	\\ \hline
         cabal=300	&	2,078515395	&	1,315083715	&	36,73$\%$	\\ \hline
-
     \end{tabular}
 \end{minipage}
 
+\pagebreak
 \begin{figure}[hbt!]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{error300.png}
         \caption{Error relatiu per al cabal de 300 L/min (exp: 270.16 L/min).}
-        \label{fig:error300}
+        \label{fig: error300}
     \end{subfigure}
     \hspace{0.025\textwidth}
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{error500.png}
         \caption{Error relatiu per al cabal de 500 L/min (exp: 491.42 L/min).}
-        \label{fig:error500}
+        \label{fig: error500}
     \end{subfigure}
     \caption{Error relatiu concentració cabal de sortida}
-    \label{fig:errors}
+    \label{fig: errors}
 \end{figure}
 
-Observem la figura \ref{fig:errors} a
+A la figura \ref{fig: error300} observem que l'error incrementa exponencialment amb el temps. Aquesta és la tendència que s'observa quan els errors són deguts a alguna aproximació teòrica. En canvi a la figura \ref{fig: error500} observem l'efecte combinat entre aquest tipus d'error i l'originat per l'operari.
 
 \section{Conclusions}
-Amb aquesta pràctica hem pogut comprovar que l'equació del balanç de matèria ens serveix per descriure el que ocórre en un reactor de tanc agitat. Les aproximacions realitzades són útils per a tenir un càlcul teòric del que ocórrirà realment però com podem veure en les diverses gràfiques, sí que hi ha una certa diferència entre els valors. També cal destacar que durant la pràctica també es produeixen errors sistemàtics, això tfa augmentar la discrepància entre els resultats esperats i els reals, i també s'ha de tenir en compte.
+Amb aquesta pràctica hem pogut comprovar que l'equació del balanç de matèria ens serveix per descriure el que ocórre en un reactor de tanc agitat en règim transitori. Com dicta aquest balanç hem vist que el cabal és invèrsament proporcional al temps de residència i, per tant, directament proporcional a la disminució de sal dins del reactor.
+
+El model teòric és consistent amb els resultats experimentals com podem veure en les diverses gràfiques. Tot i així sí que hi ha una certa discrepància entre els valors que podrien ser causa de les aproximacions i els errors experimentals. 
 
 \section*{Annex}
 
@@ -240,11 +240,45 @@ Amb aquesta pràctica hem pogut comprovar que l'equació del balanç de matèria
 
 \section{Taules dades experimentals}
 
-Taula conc sal - conductivitat
-
-Taula cabal - rpm bomba
-
-Taula conductivitat sal, concentracio sal, temps
+\begin{minipage}{\textwidth}
+    \centering
+    \captionof{table}{Concentracions al llarg del temps}
+    \label{tab:conductconc}
+    \begin{tabular}{|l|c|c|c|c|r|}
+        \hline
+        Temps (s)	&	Conductivitat (mS)	&	Concentració (g/L)	&	Temps (s)	&	Conductivitat (mS)	&	Concentració (g/L)	\\ \hline
+        0	&	63,2	&	39,5	&	600	&	33	&	19,8	\\ \hline
+        15	&	62,9	&	39,3	&	660	&	31,5	&	18,8	\\ \hline
+        30	&	61,9	&	38,7	&	720	&	29,8	&	17,7	\\ \hline
+        45	&	60,9	&	38,0	&	780	&	27,9	&	16,5	\\ \hline
+        60	&	59,9	&	37,4	&	840	&	26,1	&	15,3	\\ \hline
+        75	&	59	&	36,8	&	900	&	24,5	&	14,2	\\ \hline
+        90	&	57,9	&	36,1	&	960	&	23,1	&	13,3	\\ \hline
+        105	&	57,3	&	35,7	&	1020	&	21,6	&	12,3	\\ \hline
+        120	&	56,3	&	35,0	&	1080	&	20,3	&	11,5	\\ \hline
+        135	&	55,3	&	34,4	&	1140	&	19,04	&	10,7	\\ \hline
+        150	&	54,5	&	33,8	&	1200	&	17,84	&	9,9	\\ \hline
+        165	&	53,7	&	33,3	&	1260	&	16,73	&	9,2	\\ \hline
+        180	&	52,9	&	32,8	&	1320	&	15,72	&	8,5	\\ \hline
+        195	&	52	&	32,2	&	1380	&	14,69	&	7,8	\\ \hline
+        210	&	51,1	&	31,6	&	1440	&	13,79	&	7,2	\\ \hline
+        225	&	50,5	&	31,2	&	1500	&	12,96	&	6,7	\\ \hline
+        240	&	49,5	&	30,6	&	1560	&	12,13	&	6,2	\\ \hline
+        255	&	48,9	&	30,2	&	1620	&	11,45	&	5,7	\\ \hline
+        270	&	48,1	&	29,7	&	1680	&	10,72	&	5,2	\\ \hline
+        285	&	47,2	&	29,1	&	1740	&	10,05	&	4,8	\\ \hline
+        300	&	46,5	&	28,6	&	1800	&	9,3	&	4,3	\\ \hline
+        330	&	45,2	&	27,8	&	1860	&	8,88	&	4,0	\\ \hline
+        360	&	43,7	&	26,8	&	1920	&	8,32	&	3,7	\\ \hline
+        390	&	42,4	&	25,9	&	1980	&	7,72	&	3,3	\\ \hline
+        420	&	41	&	25,0	&	2040	&	7,34	&	3,0	\\ \hline
+        450	&	39,7	&	24,2	&	2100	&	6,9	&	2,7	\\ \hline
+        480	&	38,3	&	23,3	&	2160	&	6,49	&	2,5	\\ \hline
+        510	&	37,2	&	22,5	&	2220	&	6,09	&	2,2	\\ \hline
+        540	&	36,1	&	21,8	&	2280	&	5,73	&	2,0	\\ \hline
+        570	&	34,7	&	20,9	&	2340	&	5,38	&	1,7	\\ \hline
+    \end{tabular}
+\end{minipage}
 
 \section{Hipòtesis i càlculs}
 
@@ -275,9 +309,5 @@ Estudiem les diferències calculant l'error relatiu de les concentracions i del 
 Error  relatiu  de  $c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100$
 
 Error relatiu de $\tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100$
-
-TAULA ERRORS RELATIUS CONCENTRACIó
-
-A partir d'aquesta taula, hem construit el gràfic presentat a l'informe.
 
 \end{document}
