@@ -164,9 +164,9 @@ Temps de residència cabal=270.16 mL/min calculat: \fbox{$\tau= 888.38s$}
 
 Temps de residència cabal=491.42 mL/min calculat: \fbox{$\tau = 488.39s$}
 
-Temps de residència obtingut experimentalment pel cabal=270.16 mL/min : \fbox{$\tau_{regressió}=783.00s$}
+Temps de residència obtingut experimentalment pel cabal=270.16 mL/min : \fbox{$\tau_{regr}=783.00s$}
 
-Temps de residència obtingut experimentalment pel cabal=491.42 mL/min : \fbox{$\tau_{regressió}=448.67s$}
+Temps de residència obtingut experimentalment pel cabal=491.42 mL/min : \fbox{$\tau_{regr}=448.67s$}
 
 Error relatiu de $\tau_{Q_L = 270.16 mL/min} = \fbox{11,86 \%}$
 
@@ -193,7 +193,7 @@ Error relatiu de $\tau_{Q_L = 491.42 mL/min} = \fbox{8,132 \%}$
     \label{fig:concs}
 \end{figure}
 
-Observem la figura \ref{fig:concs} a
+Observant la figura \ref{fig:concs} a
 
 A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
 
@@ -232,6 +232,7 @@ A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
 Observem la figura \ref{fig:errors} a
 
 \section{Conclusions}
+Amb aquesta pràctica hem pogut comprovar que l'equació del balanç de matèria ens serveix per descriure el que ocórre en un reactor de tanc agitat. Les aproximacions realitzades són útils per a tenir un càlcul teòric del que ocórrirà realment però com podem veure en les diverses gràfiques, sí que hi ha una certa diferència entre els valors. També cal destacar que durant la pràctica també es produeixen errors sistemàtics, això tfa augmentar la discrepància entre els resultats esperats i els reals, i també s'ha de tenir en compte.
 
 \section*{Annex}
 
@@ -265,8 +266,9 @@ Calculem la concentració per a cada temps mitjançant l'equació proporcionada 
 on $c_{j_1}$ és la concentració del cabal d'entrada. En aquest cas, és la concentració de sal que té la propia aigua d'aixeta (que hem considerat nul·la) i $c_o$ la concentració inicial de sal dins del tanc.
 Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
 
-Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència. 
-    \fbox{$\tau_{regressió} = resultat$}
+Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència fent un petit càlcul.
+
+$\tau_{regr} = \frac{-1}{2.303m}$ on $m$ és el pendent de la recta de regressió.
 
 Estudiem les diferències calculant l'error relatiu de les concentracions i del temps de residència, expressem el resultats en percentatges.
 

@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Fdb version 4
 ["pdflatex"] 1734447624.6563 "/home/isaacb/projectes/feq/labfeq/materia.tex" "materia.pdf" "materia" 1734447627.09585 2
   "/etc/texmf/web2c/texmf.cnf" 1732058642.26863 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/isaacb/projectes/feq/labfeq/materia.tex" 1734447621.10811 10027 4d3158f609671165d4ba37249f5012c1 ""
+=======
+# Fdb version 3
+["pdflatex"] 1734443052 "/workspaces/labfeq/materia.tex" "/workspaces/labfeq/materia.pdf" "materia" 1734443053
+  "/etc/texmf/web2c/texmf.cnf" 1734269028 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/codespace/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1734355367 8268308 5735b43e570b28d5135edaba4f93a2ff ""
+>>>>>>> 0c7bd256d6d07764045d59cc51718f20d9dc6d7d
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -230,6 +237,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty" 1578692495 36103 3e78d14f0f4b1a30560fea5e04de805d ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+<<<<<<< HEAD
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -261,3 +269,36 @@
   "materia.pdf"
   "materia.toc"
   (rewritten before read)
+=======
+  "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1463002160 55589 34128738f682d033422ca125f82e5d62 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1565080000 2971 def0b6c1f0b107b3b936def894055589 ""
+  "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1565080000 2900 1537cc8184ad1792082cd229ecc269f4 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb" 1734269038 143961 201304b65f97bc643fbd0bcf0685d1fe ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1565080000 145408 43d44302ca7d82d487f511f83e309505 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1734269038 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb" 1734269038 135942 859a90cad7494a1e79c94baf546d7de5 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb" 1734269038 135938 299ac3a69892db3b7674a8b2543b0a77 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb" 1734269038 149037 995a6f1e12c1d647b99b1cf55db78699 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1565080000 138258 6525c253f16cededa14c7fd0da7f67b2 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1734269038 131078 d96015a2fa5c350129e933ca070b2484 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734356937 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
+  "/workspaces/labfeq/materia.aux" 1734443043 5023 a4248088991b8a2b72ad154a7e6e7731 ""
+  "/workspaces/labfeq/materia.tex" 1734443051 8827 ab82e5914bb0cd1e2c6b5f9bea8e1251 ""
+  "Logo_UAB.png" 1734366734 13234 b16803eeb58dcd6f24fe6f3e865c057e ""
+  "conc300.png" 1734379928 34207 4c3d2186e83c807e7ef17ac8f0f74823 ""
+  "conc500.png" 1734379929 36200 9d0385be8f262f054db3f4ca12b56310 ""
+  "error300.png" 1734380014 36897 e09e72ebd482097fc5f9fa2476bc5629 ""
+  "error500.png" 1734380014 37435 284516d9d647bb1884f30a5a646c893e ""
+  "materia.aux" 1734443043 5023 a4248088991b8a2b72ad154a7e6e7731 "pdflatex"
+  "materia.tex" 1734443051 8827 ab82e5914bb0cd1e2c6b5f9bea8e1251 ""
+  "materia.toc" 0 -1 0 "pdflatex"
+  (generated)
+  "/workspaces/labfeq/materia.pdf"
+  "materia.toc"
+  "materia.pdf"
+  "/workspaces/labfeq/materia.log"
+  "materia.aux"
+  "materia.log"
+>>>>>>> 0c7bd256d6d07764045d59cc51718f20d9dc6d7d
