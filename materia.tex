@@ -49,8 +49,9 @@
 \vspace{0.5cm}
 {\Large Torn 2 \par}
 \vspace{0.5cm}
-{\normalsize Baldi Garcia, Isaac: 1667260 \\ Barbens Calzadilla, Carla: 1666167 \\ Belmonte Leiva, Marc: 1619451 \\ Bujones Umbert, Jun Shan: 1549086 \\ Franco Avilés, Eric: 1666739 \\ Gómez Rubio, Miquel: 1668850 \\ González Barea, Eric: 1672980 \\ Jacas García, Eira: 1666616 \\ I NOMBRE DE PÀGINES AAAAAA\par}
+{\normalsize Baldi Garcia, Isaac: 1667260 \\ Barbens Calzadilla, Carla: 1666167 \\ Belmonte Leiva, Marc: 1619451 \\ Bujones Umbert, Jun Shan: 1549086 \\ Franco Avilés, Eric: 1666739 \\ Gómez Rubio, Miquel: 1668850 \\ González Barea, Eric: 1672980 \\ Jacas García, Eira: 1666616 \par}
 \vspace{1cm}
+{\normalsize 6 pàgines \par}
 {\Large Gener 2025 \par}
 \vspace{2cm}
 \includegraphics[width=0.4\textwidth]{Logo_UAB.png}
@@ -236,18 +237,49 @@ Amb aquesta pràctica hem pogut comprovar que l'equació del balanç de matèria
 
 El model teòric és consistent amb els resultats experimentals com podem veure en les diverses gràfiques. Tot i així sí que hi ha una certa discrepància entre els valors que podrien ser causa de les aproximacions i els errors experimentals. 
 
+\pagebreak
 \section*{Annex}
 
 \appendix
+
+\section{Hipòtesis i càlculs}
+
+En aquesta pràctica hem considerat que el reactor de tanc agitat és ideal i, per tant, la mescla dins del tanc és perfecta. Això vol dir que podem assumir que la concentració de dins del tanc és la mateixa que la del cabal de sortida. Per aquesta raó, mesurem la conductiivitat de la dissolució quan encara està en el tanc.
+
+També hem considerat que la concentració de sal de l'aigua de l'aixeta és tan petita que la podem despreciar. Per tant $c_{ref} = 0$.
+
+Amb el volum del reactor ja podem calcular la quantitat de sal que necessitem perquè la concentració inicial dins del tanc sigui de $40g/L$. 
+    $m_{sal} = V_{tanc}\frac{40g sal}{1L} = \fbox{160g sal}$
+Amb el volum del tanc també podem calcular el temps de residència teòric per cada cabal.
+    $\tau = V\frac{V}{Q_L}$
+
+Calculem la concentració per a cada temps mitjançant l'equació proporcionada al guió:
+\begin{equation}
+    c(t) = c_{j_1} + (c_o-c_{j_1})\exp\left(-\frac{Q_L}{V}t\right) 
+    \label{c(t)}   
+\end{equation}
+
+on $c_{j_1}$ és la concentració del cabal d'entrada. En aquest cas, és la concentració de sal que té la propia aigua d'aixeta (que hem considerat nul·la) i $c_o$ la concentració inicial de sal dins del tanc.
+Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
+
+Linealitzant l'equació \eqref{c(t)} fem el gràfic $\log(c'(t))$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència fent un petit càlcul.
+
+$\tau_{regr} = \frac{-1}{2.303m}$ on $m$ és el pendent de la recta de regressió.
+
+Estudiem les diferències calculant l'error relatiu de les concentracions i del temps de residència, expressem el resultats en percentatges.
+
+Error  relatiu  de  $c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100$
+
+Error relatiu de $\tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100$
 
 \section{Taules dades experimentals}
 
 \begin{minipage}{\textwidth}
     \centering
     \captionsetup{hypcap=false}
-    \captionof{table}{Concentracions al llarg del temps}
+    \captionof{table}{Concentracions al llarg del temps pel cabal de 270.16 mL/min}
    
-    \label{tab:conductconc}
+    \label{tab:taulaconc300}
     \begin{tabular}{|l|c|c|c|c|r|}
         \hline
         Temps (s)	&	Conductivitat (mS)	&	Concentració (g/L)	&	Temps (s)	&	Conductivitat (mS)	&	Concentració (g/L)	\\ \hline
@@ -284,34 +316,39 @@ El model teòric és consistent amb els resultats experimentals com podem veure 
     \end{tabular}
 \end{minipage}
 
-\section{Hipòtesis i càlculs}
-
-En aquesta pràctica hem considerat que el reactor de tanc agitat és ideal i, per tant, la mescla dins del tanc és perfecta. Això vol dir que podem assumir que la concentració de dins del tanc és la mateixa que la del cabal de sortida. Per aquesta raó, mesurem la conductiivitat de la dissolució quan encara està en el tanc.
-
-També hem considerat que la concentració de sal de l'aigua de l'aixeta és tan petita que la podem despreciar. Per tant $c_{ref} = 0$.
-
-Amb el volum del reactor ja podem calcular la quantitat de sal que necessitem perquè la concentració inicial dins del tanc sigui de $40g/L$. 
-    $m_{sal} = V_{tanc}\frac{40g sal}{1L} = \fbox{160g sal}$
-Amb el volum del tanc també podem calcular el temps de residència teòric per cada cabal.
-    $\tau = V\frac{V}{Q_L}$
-
-Calculem la concentració per a cada temps mitjançant l'equació proporcionada al guió:
-\begin{equation}
-    c(t) = c_{j_1} + (c_o-c_{j_1})\exp\left(-\frac{Q_L}{V}t\right) 
-    \label{c(t)}   
-\end{equation}
-
-on $c_{j_1}$ és la concentració del cabal d'entrada. En aquest cas, és la concentració de sal que té la propia aigua d'aixeta (que hem considerat nul·la) i $c_o$ la concentració inicial de sal dins del tanc.
-Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
-
-Linealitzant l'equació \eqref{c(t)} fem el gràfic $\log(c'(t))$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència fent un petit càlcul.
-
-$\tau_{regr} = \frac{-1}{2.303m}$ on $m$ és el pendent de la recta de regressió.
-
-Estudiem les diferències calculant l'error relatiu de les concentracions i del temps de residència, expressem el resultats en percentatges.
-
-Error  relatiu  de  $c(t) = \frac{|c(t)_{teo} - c(t)_{exp} exp|}{c(t)_{teo}} 100$
-
-Error relatiu de $\tau_{Q_L} = \frac{|\tau_{teo} - \tau_{exp}|}{\tau_{teo}} 100$
+\begin{minipage}{\textwidth}
+    \centering
+    \captionsetup{hypcap=false}
+    \captionof{table}{Concentracions al llarg del temps pel cabal de 491.42 mL/min}
+   
+    \label{tab:taulaconc500}
+    \begin{tabular}{|l|c|c|c|c|r|}
+        \hline
+        Temps (s)	&	Senyal (mS)	&	Concentració (g/L)	&	Temps (s)	&	Senyal (mS)	&	Concentració (g/L)	\\ \hline
+        0	&	63,4	&	39,65249559	&	390	&	33,2	&	19,91856277	\\ \hline
+        15	&	61,2	&	38,21492432	&	420	&	31,4	&	18,7423681	\\ \hline
+        30	&	59,6	&	37,16941795	&	450	&	29,7	&	17,63151757	\\ \hline
+        45	&	58	&	36,12391157	&	480	&	28,1	&	16,5860112	\\ \hline
+        60	&	56,5	&	35,14374935	&	510	&	26,6	&	15,60584897	\\ \hline
+        75	&	54,4	&	33,77152223	&	540	&	25,1	&	14,62568675	\\ \hline
+        90	&	53,5	&	33,1834249	&	570	&	23,8	&	13,77621282	\\ \hline
+        105	&	52	&	32,20326267	&	600	&	22	&	12,60001815	\\ \hline
+        120	&	50,7	&	31,35378874	&	660	&	20,1	&	11,35847933	\\ \hline
+        135	&	49,6	&	30,63500311	&	720	&	17,86	&	9,894770402	\\ \hline
+        150	&	48,9	&	30,17759407	&	780	&	16,02	&	8,692438071	\\ \hline
+        165	&	48,6	&	29,98156162	&	840	&	14,19	&	7,496640155	\\ \hline
+        180	&	48,4	&	29,85087333	&	900	&	12,8	&	6,588356492	\\ \hline
+        195	&	47,6	&	29,32812014	&	960	&	11,44	&	5,699676074	\\ \hline
+        210	&	46,1	&	28,34795791	&	1020	&	10,24	&	4,915546293	\\ \hline
+        225	&	45	&	27,62917228	&	1080	&	9,12	&	4,18369183	\\ \hline
+        240	&	43,8	&	26,8450425	&	1140	&	8,21	&	3,58906008	\\ \hline
+        255	&	42,5	&	25,99556857	&	1200	&	7,33	&	3,014031574	\\ \hline
+        270	&	41,4	&	25,27678294	&	1260	&	6,57	&	2,517416046	\\ \hline
+        285	&	40,3	&	24,55799731	&	1320	&	5,88	&	2,066541422	\\ \hline
+        300	&	39,3	&	23,90455582	&	1380	&	5,27	&	1,667942116	\\ \hline
+        330	&	37,1	&	22,46698456	&	1440	&	4,73	&	1,315083715	\\ \hline
+        360	&	35,1	&	21,16010159	&		&		&		\\ \hline				
+    \end{tabular}
+\end{minipage}
 
 \end{document}

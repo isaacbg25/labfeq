@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1734453764.68938 "/home/isaacb/projectes/feq/labfeq/materia.tex" "materia.pdf" "materia" 1734453767.63584 0
+["pdflatex"] 1734454640.77989 "/home/isaacb/projectes/feq/labfeq/materia.tex" "materia.pdf" "materia" 1734454644.19601 0
   "/etc/texmf/web2c/texmf.cnf" 1732058642.26863 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/isaacb/projectes/feq/labfeq/materia.tex" 1734453761.08358 12826 e3dd46e64071dabc96541e642e3cdc32 ""
+  "/home/isaacb/projectes/feq/labfeq/materia.tex" 1734454636.80359 14841 b63fdf9f052f74a0cbf45fdfe113b326 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -252,9 +252,9 @@
   "conc500.png" 1734438276.49604 36200 9d0385be8f262f054db3f4ca12b56310 ""
   "error300.png" 1734438276.49604 36897 e09e72ebd482097fc5f9fa2476bc5629 ""
   "error500.png" 1734438276.49604 37435 284516d9d647bb1884f30a5a646c893e ""
-  "materia.aux" 1734453767.28358 8459 8874032be99ed0c4fcc3ff08d434117c "pdflatex"
-  "materia.tex" 1734453761.08358 12826 e3dd46e64071dabc96541e642e3cdc32 ""
-  "materia.toc" 1734453767.29358 935 cd043abcae7cd9073ae2a43f559c0540 "pdflatex"
+  "materia.aux" 1734454643.73359 8792 a16a738d7466da23da46cb14bf3e866b "pdflatex"
+  "materia.tex" 1734454636.80359 14841 b63fdf9f052f74a0cbf45fdfe113b326 ""
+  "materia.toc" 1734454643.74359 935 04f6806cad9a3b8f733d0b0b0b76f845 "pdflatex"
   (generated)
   "materia.aux"
   "materia.log"
