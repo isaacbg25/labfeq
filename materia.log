@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.24)  17 DEC 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.24)  17 DEC 2024 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,30 +691,30 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-
-No file materia.aux.
+ (./materia.aux)
 \openout1 = `materia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Info: Redefining \l on input line 37.
-LaTeX Info: Redefining \L on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Info: Redefining \l on input line 38.
+LaTeX Info: Redefining \L on input line 38.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -749,7 +749,7 @@ LaTeX Info: Redefining \L on input line 37.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -778,246 +778,84 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 <Logo_UAB.png, id=7, 247.67531pt x 97.86563pt>
 File: Logo_UAB.png Graphic file (type png)
 <use Logo_UAB.png>
-Package pdftex.def Info: Logo_UAB.png  used on input line 55.
+Package pdftex.def Info: Logo_UAB.png  used on input line 56.
 (pdftex.def)             Requested size: 196.7764pt x 77.75351pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Logo_UAB.png>]
-No file materia.toc.
-\tf@toc=\write4
-\openout4 = `materia.toc'.
-
-[1]
-<calisal.png, id=23, 481.8pt x 361.35pt>
-File: calisal.png Graphic file (type png)
-<use calisal.png>
-Package pdftex.def Info: calisal.png  used on input line 91.
-(pdftex.def)             Requested size: 199.23643pt x 149.42262pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Logo_UAB.png>] (./materia.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<calibomba.png, id=24, 481.8pt x 361.35pt>
+))
+\tf@toc=\write4
+\openout4 = `materia.toc'.
+
+ [1]
+<calisal.png, id=43, 481.8pt x 361.35pt>
+File: calisal.png Graphic file (type png)
+<use calisal.png>
+Package pdftex.def Info: calisal.png  used on input line 92.
+(pdftex.def)             Requested size: 199.23643pt x 149.42262pt.
+<calibomba.png, id=44, 481.8pt x 361.35pt>
 File: calibomba.png Graphic file (type png)
 <use calibomba.png>
-Package pdftex.def Info: calibomba.png  used on input line 125.
+Package pdftex.def Info: calibomba.png  used on input line 126.
 (pdftex.def)             Requested size: 199.23643pt x 149.42262pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 M
+l.161 M
        assa sal perquè concentració dins tanc sigui 40g/L: \fbox{$m_{sal} ... [1{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./calisal.png (PNG copy)> <./calibomba.png (PNG copy)>]
-<conc300.png, id=38, 1003.75pt x 602.25pt>
+<conc300.png, id=55, 1003.75pt x 602.25pt>
 File: conc300.png Graphic file (type png)
 <use conc300.png>
-Package pdftex.def Info: conc300.png  used on input line 181.
+Package pdftex.def Info: conc300.png  used on input line 182.
 (pdftex.def)             Requested size: 221.37532pt x 132.82623pt.
-<conc500.png, id=39, 1003.75pt x 602.25pt>
+<conc500.png, id=56, 1003.75pt x 602.25pt>
 File: conc500.png Graphic file (type png)
 <use conc500.png>
-Package pdftex.def Info: conc500.png  used on input line 188.
+Package pdftex.def Info: conc500.png  used on input line 189.
 (pdftex.def)             Requested size: 221.37532pt x 132.82623pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 200.
-See the caption package documentation for explanation.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:200: Missing $ inserted.
-<inserted text> 
-                $
-l.200 ...onof{table}{Concentracions a temps 3\tau}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:200: Missing $ inserted.
-<inserted text> 
-                $
-l.200 ...onof{table}{Concentracions a temps 3\tau}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:200: Missing $ inserted.
-<inserted text> 
-                $
-l.200 ...onof{table}{Concentracions a temps 3\tau}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:200: Missing $ inserted.
-<inserted text> 
-                $
-l.200 ...onof{table}{Concentracions a temps 3\tau}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing $ inserted.
-<inserted text> 
-                $
-l.204         cabal       &	C_
-                              {teòrica} (g/L)	&	C_{exp} (g/L)	    &   Error...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 204.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.204         cabal       &	C_{teòrica} (g/L)	&
-                                                	C_{exp} (g/L)	    &   Error...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing $ inserted.
-<inserted text> 
-                $
-l.204         cabal       &	C_{teòrica} (g/L)	&
-                                                	C_{exp} (g/L)	    &   Error...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font cmr7!
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing } inserted.
-<inserted text> 
-                }
-l.204         cabal       &	C_{teòrica} (g/L)	&
-                                                	C_{exp} (g/L)	    &   Error...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing $ inserted.
-<inserted text> 
-                $
-l.204 ...    cabal       &	C_{teòrica} (g/L)	&	C_
-                                                  {exp} (g/L)	    &   Error ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.204 ...	C_{teòrica} (g/L)	&	C_{exp} (g/L)	    &
-                                                     Error relatiu	\\ \hline
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing $ inserted.
-<inserted text> 
-                $
-l.204 ...	C_{teòrica} (g/L)	&	C_{exp} (g/L)	    &
-                                                     Error relatiu	\\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:204: Missing } inserted.
-<inserted text> 
-                }
-l.204 ...	C_{teòrica} (g/L)	&	C_{exp} (g/L)	    &
-                                                     Error relatiu	\\ \hline
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \vbox (badness 7540) has occurred while \output is active []
-
  [2 <./conc300.png> <./conc500.png>]
-<error300.png, id=55, 1003.75pt x 602.25pt>
+<error300.png, id=68, 1003.75pt x 602.25pt>
 File: error300.png Graphic file (type png)
 <use error300.png>
-Package pdftex.def Info: error300.png  used on input line 215.
+Package pdftex.def Info: error300.png  used on input line 217.
 (pdftex.def)             Requested size: 221.37532pt x 132.82623pt.
-<error500.png, id=56, 1003.75pt x 602.25pt>
+<error500.png, id=69, 1003.75pt x 602.25pt>
 File: error500.png Graphic file (type png)
 <use error500.png>
-Package pdftex.def Info: error500.png  used on input line 222.
+Package pdftex.def Info: error500.png  used on input line 224.
 (pdftex.def)             Requested size: 221.37532pt x 132.82623pt.
 
-
-LaTeX Warning: Reference `fig: error300' on page 3 undefined on input line 230.
-
-
-LaTeX Warning: Reference `fig: error500' on page 3 undefined on input line 230.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 245.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (7.72493pt too wide) in paragraph at lines 247--281
+Overfull \hbox (7.72493pt too wide) in paragraph at lines 251--285
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./error300.png> <./error500.png>]
-Underfull \vbox (badness 5970) has occurred while \output is active []
-
- [4]
-
-LaTeX Warning: Reference `c(t)' on page 5 undefined on input line 303.
-
-/home/isaacb/projectes/feq/labfeq/materia.tex:303: Undefined control sequence.
-<recently read> \logc 
-                      
-l.303 ...uació \eqref{c(t)} fem el gràfic $\logc
-                                                  '(t)$ enfront $t$ i evalua...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[5] (./materia.aux)
+[3 <./error300.png> <./error500.png>] [4] [5] (./materia.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 37545 strings out of 474222
- 836058 string characters out of 5748732
+ 37551 strings out of 474222
+ 836166 string characters out of 5748732
  1955975 words of memory out of 5000000
- 59195 multiletter control sequences out of 15000+600000
+ 59197 multiletter control sequences out of 15000+600000
  570024 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,1230b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on materia.pdf (7 pages, 416987 bytes).
+Output written on materia.pdf (7 pages, 418535 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
+ 206 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

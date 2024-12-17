@@ -31,6 +31,7 @@
 \usepackage{caption}
 \setlength{\parskip}{11pt}
 \usepackage{listings}
+\raggedbottom
 
 \captionsetup{labelfont=bf}
 
@@ -196,19 +197,20 @@ Error relatiu de $\tau_{Q_L = 491.42 mL/min} = \fbox{8,132 \%}$
 A $t=3\tau$ obtenim les següents dades teòriques i experimentals.
 
 \begin{minipage}{\textwidth}
+    \captionsetup{hypcap=false}
     \centering
-    \captionof{table}{Concentracions a temps 3\tau}
-    \label{tab:calibomba}
+    \captionof{table}{Concentracions a temps $3\tau$}
+    \label{tab: conce3tau}
     \begin{tabular}{|l|c|c|r|}
         \hline
-        cabal       &	C_{teòrica} (g/L)	&	C_{exp} (g/L)	    &   Error relatiu	\\ \hline
+        cabal       &	$C_{teo}$ (g/L)	&	$C_{exp}$ (g/L)	    &   Error relatiu	\\ \hline
         cabal=500	&	2,837248504	&	1,73982068	&	38,68$\%$	\\ \hline
         cabal=300	&	2,078515395	&	1,315083715	&	36,73$\%$	\\ \hline
     \end{tabular}
 \end{minipage}
 
 \pagebreak
-\begin{figure}[hbt!]
+\begin{figure}[h!]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
@@ -242,7 +244,9 @@ El model teòric és consistent amb els resultats experimentals com podem veure 
 
 \begin{minipage}{\textwidth}
     \centering
+    \captionsetup{hypcap=false}
     \captionof{table}{Concentracions al llarg del temps}
+   
     \label{tab:conductconc}
     \begin{tabular}{|l|c|c|c|c|r|}
         \hline
@@ -300,7 +304,7 @@ Calculem la concentració per a cada temps mitjançant l'equació proporcionada 
 on $c_{j_1}$ és la concentració del cabal d'entrada. En aquest cas, és la concentració de sal que té la propia aigua d'aixeta (que hem considerat nul·la) i $c_o$ la concentració inicial de sal dins del tanc.
 Grafic 1(teoric + exp cabal1), Gràfic2 (teo+exp cabal2)
 
-Linealitzant l'equació \eqref{c(t)} fem el gràfic $\logc'(t)$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència fent un petit càlcul.
+Linealitzant l'equació \eqref{c(t)} fem el gràfic $\log(c'(t))$ enfront $t$ i evaluant-ne el pendent obtenim el temps de residència fent un petit càlcul.
 
 $\tau_{regr} = \frac{-1}{2.303m}$ on $m$ és el pendent de la recta de regressió.
 
