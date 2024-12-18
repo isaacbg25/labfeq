@@ -3,6 +3,10 @@
 \contentsline {subsection}{\numberline {1.1}Calibratge de la bomba}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Mesura del volum del tanc}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Resultats experimentals i discussió}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Temperatures de sortida teòriques vs. experimentals}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Evolució de temperatures teòriques vs. experimentals}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Representació semilogarítmica de les temperatures experimentals}{1}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Conclusions}{1}{section.3}%
-\contentsline {section}{\numberline {A}Calibratge de la bomba d'entrada}{1}{appendix.A}%
+\contentsline {section}{\numberline {A}Calibratge de la bomba d'entrada}{2}{appendix.A}%
 \contentsline {section}{\numberline {B}Mesura del volum del tanc}{2}{appendix.B}%
+\contentsline {section}{\numberline {C}Presa de dades experimentals}{3}{appendix.C}%
