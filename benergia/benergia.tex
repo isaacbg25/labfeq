@@ -63,10 +63,9 @@
 En aquesta pràctica ens proposem estudiar els balaços d'energia calorífica aplicats tanc adiabàtic, en el qual no es produeix cap tipus d'intercanvi d'energia i/o matèria, i en concret de calor, amb l'entorn.  Per tal de demostrar experimentalment això, mesurarem la temperatura de l'aigua que flueix per dins del reactor en diferents temps, comparant-los amb la temperatura del tanc pulmó.
 \end{abstract}
 
-\section{Resultats i discussió}
-Després de fer la pràctica s'han obtingut els següents resultats.
+\section{Calibratge de la bomba i mesura del volum del tanc}
 \subsection{Calibratge de la bomba}
-Abans de començar amb la part experimental cal que, prèviament, calibrem la bomba, per tal de conèixer quins cabals es corresponen amb cada valor de rpm's de la bomba, i mesurem el volum del tanc.
+Abans de començar amb la part experimental cal que, prèviament, calibrem la bomba, per tal de conèixer quins cabals es corresponen amb cada valor de rpm's de la bomba, i mesurem el volum del tanc. S'han obtingut els següents valors.
 \begin{table}[h!]
     \centering
     \caption{Resultats obtinguts en el calibratge de la bomba.}
@@ -79,14 +78,18 @@ Abans de començar amb la part experimental cal que, prèviament, calibrem la bo
     130      & 910       & 303.33       \\ \hline
     \end{tabular}
 \end{table}
+ AQUÍ VA LA GRÀFICA DE LA CORBA DE CALIBRATGE
  
 \subsection{Mesura del volum del tanc}
 Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'annex s'explica en què consisteix cadascun dels dos mètodes.}:
 \begin{itemize}
     \item \textbf{Mètode 1: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1595.00 \text{ mL}}$.
     \item \textbf{Mètode 2: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1637.98 \text{ mL}}$.
-    \item \textbf{Volum promig: } $\boxed{V = 1616.49 \text{ mL}}$.
+    \item \textbf{Volum promig: }El volum promig obtingut ha estat $\Rightarrow$ $\boxed{V = 1616.49 \text{ mL}}$.
 \end{itemize}
+
+\section{Resultats experimentals i discussió}
+
 
 \section{Conclusions}
 
@@ -97,26 +100,35 @@ Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'ann
 \section{Calibratge de la bomba d'entrada}
 L'objectiu del calibratge és trobar per quins valors de rpm aconseguim treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$. 
 
-Per calibrar la bomba hem fet un seguit de mesures dels volums corresponents als valors de revolucions per minut (rpm) donats per la bomba. Els valors obtinguts es poden veure a \ref{fig1}.
+Per calibrar la bomba hem fet un seguit de mesures dels volums omplits per aquesta corresponents a una serie de valors de revolucions per minut (rpm) en un temps $t = 3$ min. Els valors obtinguts es poden veure a \ref{fig1}.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{calbomba.png}
     \caption{Resultats del calibratge de la bomba.}
     \label{fig1}
 \end{figure}
 
-L'equació obtinguda amb els nostres punts experimentals 
-és $y=7.0893x-16.071$, amb una $R^2$ de 0.9995, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
+L'equació obtinguda amb els nostres punts experimentals és $y=7.0893x-16.071$, amb una $R^2 = 0.9995$, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
 
-A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut donades per la bomba, usant que
+A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut usant que
 
 \begin{equation}
     Q_L = \frac{V}{t}
 \end{equation}
 
+on, de nou, $t=3$ min. Amb això fàcilment es pot determinar que els valors de rpm de la bomba necessaris per treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$ són els donats a la taula \ref{tab1}.
 
 \section{Mesura del volum del tanc}
+Per tal de mesurar el volum del tanc amb el que hem treballat hem usat dos mètodes distints, tenint cura que les condicions de mesura eren exactament les condicions d'operació del tanc (agitador connectat al 10$\%$ de la seva potència màxima, sense xocar amb les parets del recipient i a una alçada fixada). Les dues metologies han estat:
+\begin{enumerate}
+    \item Omplir el tanc amb aigua i connectar la bomba de sortida. Quan la quantitat d'aigua que surt pel cabal de sortida és zero, mesurar tot el volum contingut al recipient (usant material volumètric del laboratori).
+    \item Amb el tanc buit, connectar les bombes d'entrada i sortida. Mesurar el temps que triga a omplir-se el reactor. Amb aquest temps i el cabal (que és conegut, donat el valor de rpm de la bomba), es pot determinar $V$ usant
+    \begin{equation}
+        V = Q_L \cdot t
+    \end{equation}
+\end{enumerate}
+El resultats obtinguts amb cada mètode es poden veure a la corresponent secció d'aquest informe.
 
 
 

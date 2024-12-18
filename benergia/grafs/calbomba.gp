@@ -3,7 +3,7 @@ set output "calbomba.png"
 set samples 60,60
 set ylabel "Volum (mL)"
 set xlabel "Revolucions per minut (rpm)"
-set key box top right
+set key top right
 
 f(x) = m*x + b
 
@@ -20,7 +20,7 @@ R2 = 0.9995
 
 set grid
 plot "calbomba.dat" with points ps 3 title "Punts Experimentals", \
-    f(x) with lines lw 1 lc "blue" title "Ajust Lineal"
+    f(x) with lines lw 1 lc "blue" title sprintf("Ajust Lineal: y = %.3fx %.3f", m, b)
 
 
 set output
