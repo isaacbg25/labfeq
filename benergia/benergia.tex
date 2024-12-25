@@ -15,6 +15,7 @@
 \usepackage{hyperref}
 \usepackage{float}
 \usepackage{caption}
+\usepackage{booktabs}
 
 \captionsetup{labelfont=bf}
 
@@ -78,7 +79,13 @@ Abans de començar amb la part experimental cal que, prèviament, calibrem la bo
     130      & 910       & 303.33       \\ \hline
     \end{tabular}
 \end{table}
- AQUÍ VA LA GRÀFICA DE LA CORBA DE CALIBRATGE
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{calbombagnu.png}
+    \caption{Corba de calibratge per la bomba}
+    \label{fig1}
+\end{figure}
  
 \subsection{Mesura del volum del tanc}
 Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'annex s'explica en què consisteix cadascun dels dos mètodes.}:
@@ -109,13 +116,6 @@ L'objectiu del calibratge és trobar per quins valors de rpm aconseguim treballa
 
 Per calibrar la bomba hem fet un seguit de mesures dels volums omplits per aquesta corresponents a una serie de valors de revolucions per minut (rpm) en un temps $t = 3$ min. Els valors obtinguts es poden veure a \ref{fig1}.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{calbomba.png}
-    \caption{Resultats del calibratge de la bomba.}
-    \label{fig1}
-\end{figure}
-
 L'equació obtinguda amb els nostres punts experimentals és $y=7.0893x-16.071$, amb una $R^2 = 0.9995$, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
 
 A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut usant que
@@ -138,9 +138,129 @@ Per tal de mesurar el volum del tanc amb el que hem treballat hem usat dos mèto
 El resultats obtinguts amb cada mètode es poden veure a la corresponent secció d'aquest informe.
 
 \section{Presa de dades experimentals}
-Per tal de trobar les temperatures  \textit{here goes blahblahblah}
+Per tal de trobar les temperatures de sortida usant els diferents cabals proposats pel guió, hem efectuat mesures de la temperatura a dins del tanc, que prèviament havia estat omplert amb aigua a 90 ºC, cada 30 segons durant els primers 5 minuts i després cada minut, fins que la temperatura del tanc ha estat uns 10-15 ºC superior a la del tanc pulmó.
 
+Les temperatures inicials del tanc i del pulmó per a cada cas han estat:
 
+\begin{table}[h!]
+    \centering
+    \caption{Temperatures inicials del tanc i del pulmó per cada valor $Q_L$.}
+    \begin{tabular}{cccc}
+        \toprule
+        & $Q_L = 203.33$ mL/min & $Q_L = 253,33$ mL/min & $Q_L = 303,33$ mL/min \\
+        \midrule
+        \textbf{T$_0$ al Tanc (K)} & 362,0 & 364,1 & 364,6 \\
+        \textbf{T del Pulmó (K)}  & 290,6 & 290,3 & 290,1 \\
+        \bottomrule
+    \end{tabular}
+    \label{tabla:temperaturas}
+\end{table}
+
+Tot seguit adjuntem 3 taules (una per cada cabal) amb totes les dades experimentals recollides.
+\begin{table}[H]
+    \centering
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \caption{Resultats experimentals amb $Q_L = 203,33 \frac{\text{mL}}{\text{min}}$.}
+        \begin{tabular}{ccc}
+            \toprule
+            \textbf{Temps (s)} & \textbf{T (ºC)} & \textbf{T (K)} \\
+            \midrule
+            0   & 88,8 & 362,0 \\
+            30  & 88,4 & 361,6 \\
+            60  & 87,2 & 360,4 \\
+            90  & 85,7 & 358,9 \\
+            120 & 82,7 & 355,9 \\
+            150 & 78,3 & 351,5 \\
+            180 & 73,2 & 346,4 \\
+            210 & 69,0 & 342,1 \\
+            240 & 65,3 & 338,5 \\
+            270 & 61,2 & 334,4 \\
+            300 & 57,9 & 331,1 \\
+            330 & 54,5 & 327,7 \\
+            360 & 51,2 & 324,4 \\
+            390 & 48,3 & 321,5 \\
+            420 & 46,1 & 319,3 \\
+            450 & 43,7 & 316,9 \\
+            480 & 41,5 & 314,7 \\
+            510 & 39,4 & 312,6 \\
+            540 & 36,7 & 309,9 \\
+            570 & 35,6 & 308,8 \\
+            600 & 34,0 & 307,2 \\
+            
+            \bottomrule
+        \end{tabular}
+        
+        \label{tabla:muestra1}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \caption{Resultats experimentals amb $Q_L = 253,33 \frac{\text{mL}}{\text{min}}$.}
+        \begin{tabular}{ccc}
+            \toprule
+            \textbf{Temps (s)} & \textbf{T (ºC)} & \textbf{T (K)} \\
+            \midrule
+            0   & 90,9 & 364,1 \\
+            30  & 90,3 & 363,5 \\
+            60  & 88,2 & 361,4 \\
+            90  & 83,4 & 356,6 \\
+            120 & 77,5 & 350,7 \\
+            150 & 72,2 & 345,4 \\
+            180 & 66,7 & 339,9 \\
+            210 & 61,5 & 334,7 \\
+            240 & 56,8 & 330,0 \\
+            270 & 53,7 & 326,9 \\
+            300 & 51,0 & 324,2 \\
+            330 & 48,0 & 321,2 \\
+            360 & 44,9 & 318,1 \\
+            390 & 42,4 & 315,6 \\
+            420 & 39,8 & 313,0 \\
+            450 & 39,4 & 312,6 \\
+            480 & 37,1 & 310,3 \\
+            510 & 35,6 & 308,8 \\
+            540 & 34,4 & 307,6 \\
+            570 & 33,2 & 306,4 \\
+            - & - & - \\
+            \bottomrule
+        \end{tabular}
+        \label{tabla:muestra2}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \caption{Resultats experimentals amb $Q_L = 303,33 \frac{\text{mL}}{\text{min}}$.}
+        \begin{tabular}{ccc}
+            \toprule
+            \textbf{Temps (s)} & \textbf{T (ºC)} & \textbf{T (K)} \\
+            \midrule
+            0   & 91,4 & 364,6 \\
+            30  & 86,2 & 359,4 \\
+            60  & 82,8 & 356,0 \\
+            90  & 77,5 & 350,7 \\
+            120 & 71,0 & 344,2 \\
+            150 & 64,5 & 337,7 \\
+            180 & 61,1 & 334,3 \\
+            210 & 56,4 & 329,6 \\
+            240 & 53,7 & 326,9 \\
+            270 & 50,4 & 323,6 \\
+            300 & 47,4 & 320,6 \\
+            330 & 45,0 & 318,2 \\
+            360 & 42,5 & 315,7 \\
+            390 & 40,5 & 313,7 \\
+            420 & 38,6 & 311,8 \\
+            450 & 36,7 & 309,9 \\
+            480 & 35,0 & 308,2 \\
+            510 & 33,4 & 306,6 \\
+            - & - & - \\
+            - & - & - \\
+            - & - & - \\
+            \bottomrule
+        \end{tabular}
+        
+        \label{tabla:muestra3}
+    \end{minipage}
+\end{table}
 
 
 \end{document}
