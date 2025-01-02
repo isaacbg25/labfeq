@@ -1,7 +1,7 @@
 set terminal pngcairo enhanced size 1500,1080 enhanced font "Cambria,26"
 set output "ajustsemilog203.png"
 set samples 60,60
-set ylabel "log (T')"
+set ylabel "log T'"
 set xlabel "temps (min)"
 set key top right
 
