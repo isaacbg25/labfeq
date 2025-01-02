@@ -102,6 +102,42 @@ Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'ann
 \subsection{Evolució de temperatures teòriques vs. experimentals}
 
 \subsection{Representació semilogarítmica de les temperatures experimentals}
+Partint de l'queació linealitzada: 
+\begin{equation}
+    \log(T') = \log(T'_0) - \frac{Q_L}{2,303V} t
+\end{equation}
+representem gràficament el logaritme de les temperatures experimentals menys la temperatura del tanc pulmó respecte el temps per cadascun dels cabals utilitzats durant l'experiment
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog203.png}
+    \caption{Gràfic semilogarítmic pel cabal 203,33 mL/min}
+    \label{fig2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog253.png}
+    \caption{Gràfic semilogarítmic pel cabal 253,33 mL/min}
+    \label{fig3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog303.png}
+    \caption{Gràfic semilogarítmic pel cabal 303,33 mL/min}
+    \label{fig4}
+\end{figure}
+
+Observem que obtenim unes rectes prou bones, fet que ens indica que les dades experimentals es comporten de forma similar a la predicció teòrica. Si, a més, comparem els valors de les pendents amb el valor esperat ${-Q_L}/{2,303V}$:
+
+\begin{itemize}
+    \item \textbf{Cabal 203,33 mL/min:} Obtenim un pendent teòric de \( -0,0546 \, \text{min}^{-1} \)
+    \item \textbf{Cabal 253,33 mL/min:} Obtenim un pendent teòric de \( -0,0680 \, \text{min}^{-1} \)
+    \item \textbf{Cabal 303,33 mL/min:} Obtenim un pendent teòric de \( -0,0815 \, \text{min}^{-1} \)
+\end{itemize}
+
+Així doncs, observem que els valors del pendent es desvien lleugerament dels esperats. Tanmateix, aquesta desviació la podem atribuir a errors experimentals i, donat que els valors resegueixen un comportament similar a l'esperat, podem assumir que les nostres dades segueixen la predicció teòrica.
 
 \section{Conclusions}
 
