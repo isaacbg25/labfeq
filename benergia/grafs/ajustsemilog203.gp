@@ -8,15 +8,15 @@ set key top right
 f(x) = m*x + b
 
 # Valores iniciales aproximados
-m = -0,0684
-b = 1,9282
+m = -0.0684
+b = 1.9282
 
 # Ajustar la función a los datos
 fit f(x) "ajustsemilog203.dat" using 1:2 via m, b
 
 # Calcular estadísticas para la columna Y
 
-R2 = 0,9866
+R2 = 0.9866
 
 set grid
 plot "ajustsemilog203.dat" with points ps 3 title "Punts Experimentals", \
