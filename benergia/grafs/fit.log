@@ -1888,3 +1888,111 @@ correlation matrix of the fit parameters:
                 m      b      
 m               1.000 
 b              -0.981  1.000 
+
+
+*******************************************************************************
+Thu Jan 02 13:58:58 2025
+
+
+FIT:    data read from "ajustsemilog203.dat" using 1:2
+        format = x:z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 1.4056517661e-02   0.00e+00  1.40e+00   -6.840000e-02   1.928200e+00
+   3 1.4054386786e-02  -4.99e-04  1.40e-03   -6.835358e-02   1.928230e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0140544
+rel. change during last iteration : -4.98881e-09
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0265089
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000702719
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.0683536       +/- 0.001782     (2.607%)
+b               = 1.92823          +/- 0.01093      (0.5668%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.856  1.000 
+
+
+*******************************************************************************
+Thu Jan 02 13:59:21 2025
+
+
+FIT:    data read from "ajustsemilog253.dat" using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2880318606e-03   0.00e+00  1.38e+00   -7.590000e-02   1.910700e+00
+   1 5.2880089625e-03  -4.33e-01  1.38e-01   -7.590072e-02   1.910736e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00528801
+rel. change during last iteration : -4.33019e-06
+
+degrees of freedom    (FIT_NDF)                        : 18
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.01714
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000293778
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.0759007       +/- 0.001329     (1.751%)
+b               = 1.91074          +/- 0.007386     (0.3866%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.855  1.000 
+
+
+*******************************************************************************
+Thu Jan 02 13:59:31 2025
+
+
+FIT:    data read from "ajustsemilog303.dat" using 1:2
+        format = x:z
+        #datapoints = 18
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = m*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 1.0150857202e-03   0.00e+00  1.36e+00   -7.870000e-02   1.882600e+00
+   3 1.0148043244e-03  -2.68e-03  1.36e-03   -7.867261e-02   1.882586e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0010148
+rel. change during last iteration : -2.6834e-08
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.007964
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.34253e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.0786726       +/- 0.0007236    (0.9198%)
+b               = 1.88259          +/- 0.003603     (0.1914%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.854  1.000 
