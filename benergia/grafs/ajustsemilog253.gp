@@ -23,4 +23,4 @@ plot "ajustsemilog253.dat" with points ps 3 title "Punts Experimentals", \
     f(x) with lines lw 1 lc "blue" title sprintf("Ajust Lineal: y = %.3fx %.3f", m, b)
 
 
-set output
+set output 
