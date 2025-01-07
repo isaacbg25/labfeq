@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1735837186.95619 "c:/Users/ericg/OneDrive/Documentos/GitHub/labfeq/benergia/benergia.tex" "benergia.pdf" "benergia" 1735837188.40315 0
+["pdflatex"] 1736263563.84201 "c:/Users/ericg/OneDrive/Documentos/GitHub/labfeq/benergia/benergia.tex" "benergia.pdf" "benergia" 1736263565.19722 0
   "C:/Users/ericg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1735158780 81043 787296dcccf959cefd61d1a07b638763 ""
   "C:/Users/ericg/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1708181893 12124 9652537fbee92ac75bde07ee18311319 ""
   "C:/Users/ericg/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1708105905 11548 d5180cf167b07222b0a0224c0f720ad2 ""
@@ -117,10 +117,10 @@
   "ajustsemilog203.png" 1735837051 47056 594be0fde70c8af4312b24f037e96e97 ""
   "ajustsemilog253.png" 1735837051 46237 0627429c389129223a3c1a2076ef1d1e ""
   "ajustsemilog303.png" 1735837051 50563 cf7741f3fadf7ad58d5df4c3b503d9d7 ""
-  "benergia.aux" 1735837188 9585 5fdd478d7f0a9e01dadbf78ec93ed3c9 "pdflatex"
-  "benergia.tex" 1735837186 12612 3f5405f6f276e695421a95110f2d9b4c ""
-  "benergia.toc" 1735837188 1099 3fae83176c742757871fc0e71252676d "pdflatex"
-  "c:/Users/ericg/OneDrive/Documentos/GitHub/labfeq/benergia/benergia.tex" 1735837186 12612 3f5405f6f276e695421a95110f2d9b4c ""
+  "benergia.aux" 1736263564 10032 3e8ec9fbcaaa78bd35e5453be15b7901 "pdflatex"
+  "benergia.tex" 1736263561 12808 63cccd532ea487b3ad99af29700d9edf ""
+  "benergia.toc" 1736263564 1187 69037318ac5b56fc8032597516c6233c "pdflatex"
+  "c:/Users/ericg/OneDrive/Documentos/GitHub/labfeq/benergia/benergia.tex" 1736263561 12808 63cccd532ea487b3ad99af29700d9edf ""
   "calbombagnu.png" 1734535618 52868 e334688eec212c375ecb7d964bc1fce7 ""
   (generated)
   "benergia.aux"
