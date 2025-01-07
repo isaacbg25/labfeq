@@ -4,11 +4,9 @@
 \contentsline {subsection}{\numberline {1.2}Mesura del volum del tanc}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Mesures de temperatura}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Resultats experimentals i discussió}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Temperatures de sortida teòriques vs. experimentals}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Evolució de temperatures teòriques vs. experimentals}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Representació semilogarítmica de les temperatures experimentals}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Conclusions}{4}{section.3}%
-\contentsline {section}{\numberline {A}Calibratge de la bomba d'entrada}{5}{appendix.A}%
-\contentsline {section}{\numberline {B}Mesura del volum del tanc}{5}{appendix.B}%
-\contentsline {section}{\numberline {C}Presa de dades experimentals}{5}{appendix.C}%
-\contentsline {section}{\numberline {D}Enllaç al Repositori de \textit {GitHub}}{5}{appendix.D}%
+\contentsline {subsection}{\numberline {2.1}Temperatures teòriques vs. experimentals}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Representació semilogarítmica de les temperatures experimentals}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Conclusions}{5}{section.3}%
+\contentsline {section}{\numberline {A}Calibratge de la bomba d'entrada}{6}{appendix.A}%
+\contentsline {section}{\numberline {B}Mesura del volum del tanc}{6}{appendix.B}%
+\contentsline {section}{\numberline {C}Presa de dades experimentals}{6}{appendix.C}%
