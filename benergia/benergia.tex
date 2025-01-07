@@ -74,9 +74,9 @@ Abans de començar amb la part experimental cal que, prèviament, calibrem la bo
     \begin{tabular}{|c|c|c|} % Estructura de columnas
     \hline
     Revolucions per minut (rpm) & Volum (mL) & Cabal (mL/min) \\ \hline
-    90       & 625       & 208.33       \\ \hline
-    110      & 760       & 253.33       \\ \hline
-    130      & 910       & 303.33       \\ \hline
+    90       & 625       & 208,33       \\ \hline
+    110      & 760       & 253,33       \\ \hline
+    130      & 910       & 303,33       \\ \hline
     \end{tabular}
 \end{table}
  
@@ -90,102 +90,14 @@ Abans de començar amb la part experimental cal que, prèviament, calibrem la bo
 \subsection{Mesura del volum del tanc}
 Els volums trobats trobats usant els dos mètodes proposats és\footnote{A l'annex s'explica en què consisteix cadascun dels dos mètodes.}:
 \begin{itemize}
-    \item \textbf{Mètode 1: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1595.00 \text{ mL}}$.
-    \item \textbf{Mètode 2: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1637.98 \text{ mL}}$.
-    \item \textbf{Volum promig: }El volum promig obtingut ha estat $\Rightarrow$ $\boxed{V = 1616.49 \text{ mL}}$.
+    \item \textbf{Mètode 1: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1595,00 \text{ mL}}$.
+    \item \textbf{Mètode 2: }El volum obtingut ha estat $\Rightarrow$ $\boxed{V = 1637,98 \text{ mL}}$.
+    \item \textbf{Volum promig: }El volum promig obtingut ha estat $\Rightarrow$ $\boxed{V = 1616,49 \text{ mL}}$.
 \end{itemize}
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 \subsection{Mesures de temperatura}
-A continuació adjuntem les mesures de temperatura pels 3 cabals proposats.
-=======
->>>>>>> Stashed changes
-\section{Resultats experimentals i discussió}
-
-\subsection{Temperatures de sortida teòriques vs. experimentals}
-
-\subsection{Evolució de temperatures teòriques vs. experimentals}
-
-\subsection{Representació semilogarítmica de les temperatures experimentals}
-Partint de l'queació linealitzada: 
-\begin{equation}
-    \log(T') = \log(T'_0) - \frac{Q_L}{2,303V} t
-\end{equation}
-representem gràficament el logaritme de les temperatures experimentals menys la temperatura del tanc pulmó respecte el temps per cadascun dels cabals utilitzats durant l'experiment
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{ajustsemilog203.png}
-    \caption{Gràfic semilogarítmic pel cabal 203,33 mL/min.}
-    \label{fig2}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{ajustsemilog253.png}
-    \caption{Gràfic semilogarítmic pel cabal 253,33 mL/min.}
-    \label{fig3}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{ajustsemilog303.png}
-    \caption{Gràfic semilogarítmic pel cabal 303,33 mL/min.}
-    \label{fig4}
-\end{figure}
-
-Observem que obtenim unes rectes prou bones, fet que ens indica que les dades experimentals es comporten de forma similar a la predicció teòrica. Si, a més a més, comparem els valors de les pendents amb el valor esperat ${-Q_L}/{2,303V}$:
-
-\begin{itemize}
-    \item \textbf{Cabal 203,33 mL/min:} Obtenim un pendent teòric de \( -0,0546 \, \text{min}^{-1} \)
-    \item \textbf{Cabal 253,33 mL/min:} Obtenim un pendent teòric de \( -0,0680 \, \text{min}^{-1} \)
-    \item \textbf{Cabal 303,33 mL/min:} Obtenim un pendent teòric de \( -0,0815 \, \text{min}^{-1} \)
-\end{itemize}
-
-Així doncs, observem que els valors del pendent es desvien lleugerament dels esperats. Tanmateix, aquesta desviació la podem atribuir a errors experimentals i, donat que els valors resegueixen un comportament similar a l'esperat, podem assumir que les nostres dades segueixen la predicció teòrica.
-
-<<<<<<< Updated upstream
-=======
->>>>>>> 788cab201435a3f68ea77fc1687d0ebac77dc5e8
->>>>>>> Stashed changes
-\section{Conclusions}
-
-
-
-\newpage
-\appendix
-{\Huge \textbf{Annexos}}
-
-\section{Calibratge de la bomba d'entrada}
-L'objectiu del calibratge és trobar per quins valors de rpm aconseguim treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$. 
-
-Per calibrar la bomba hem fet un seguit de mesures dels volums omplits per aquesta corresponents a una serie de valors de revolucions per minut (rpm) en un temps $t = 3$ min. Els valors obtinguts es poden veure a \ref{fig1}.
-
-L'equació obtinguda amb els nostres punts experimentals és $y=7.0893x-16.071$, amb una $R^2 = 0.9995$, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
-
-A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut usant que
-
-\begin{equation}
-    Q_L = \frac{V}{t}
-\end{equation}
-
-on, de nou, $t=3$ min. Amb això fàcilment es pot determinar que els valors de rpm de la bomba necessaris per treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$ són els donats a la taula \ref{tab1}.
-
-\section{Mesura del volum del tanc}
-Per tal de mesurar el volum del tanc amb el que hem treballat hem usat dos mètodes distints, tenint cura que les condicions de mesura eren exactament les condicions d'operació del tanc (agitador connectat al 10$\%$ de la seva potència màxima, sense xocar amb les parets del recipient i a una alçada fixada). Les dues metologies han estat:
-\begin{enumerate}
-    \item Omplir el tanc amb aigua i connectar la bomba de sortida. Quan la quantitat d'aigua que surt pel cabal de sortida és zero, mesurar tot el volum contingut al recipient (usant material volumètric del laboratori).
-    \item Amb el tanc buit, connectar les bombes d'entrada i sortida. Mesurar el temps que triga a omplir-se el reactor. Amb aquest temps i el cabal (que és conegut, donat el valor de rpm de la bomba), es pot determinar $V$ usant
-    \begin{equation}
-        V = Q_L \cdot t
-    \end{equation}
-\end{enumerate}
-El resultats obtinguts amb cada mètode es poden veure a la corresponent secció d'aquest informe.
-
-\section{Presa de dades experimentals}
-Per tal de trobar les temperatures de sortida usant els diferents cabals proposats pel guió, hem efectuat mesures de la temperatura a dins del tanc, que prèviament havia estat omplert amb aigua a 90 ºC, cada 30 segons durant els primers 5 minuts i després cada minut, fins que la temperatura del tanc ha estat uns 10-15 ºC superior a la del tanc pulmó.
+A continuació adjuntem les mesures de temperatura pels 3 cabals proposats. A l'annex C comentem la metodologia seguida per tal de fer la presa de dades.
 
 Les temperatures inicials del tanc i del pulmó per a cada cas han estat:
 
@@ -203,7 +115,7 @@ Les temperatures inicials del tanc i del pulmó per a cada cas han estat:
     \label{tabla:temperaturas}
 \end{table}
 
-Tot seguit adjuntem 3 taules (una per cada cabal) amb totes les dades experimentals recollides.
+Tot seguit adjuntem 3 taules (una per cada cabal) amb totes les temperatures mesurades:
 \begin{table}[H]
     \centering
     \begin{minipage}{0.3\textwidth}
@@ -308,6 +220,92 @@ Tot seguit adjuntem 3 taules (una per cada cabal) amb totes les dades experiment
         \label{tabla:muestra3}
     \end{minipage}
 \end{table}
+
+
+\section{Resultats experimentals i discussió}
+
+\subsection{Temperatures de sortida teòriques vs. experimentals}
+
+\subsection{Evolució de temperatures teòriques vs. experimentals}
+
+\subsection{Representació semilogarítmica de les temperatures experimentals}
+Partint de l'queació linealitzada: 
+\begin{equation}
+    \log(T') = \log(T'_0) - \frac{Q_L}{2,303V} t
+\end{equation}
+representem gràficament el logaritme de les temperatures experimentals menys la temperatura del tanc pulmó respecte el temps per cadascun dels cabals utilitzats durant l'experiment
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog203.png}
+    \caption{Gràfic semilogarítmic pel cabal 203,33 mL/min.}
+    \label{fig2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog253.png}
+    \caption{Gràfic semilogarítmic pel cabal 253,33 mL/min.}
+    \label{fig3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ajustsemilog303.png}
+    \caption{Gràfic semilogarítmic pel cabal 303,33 mL/min.}
+    \label{fig4}
+\end{figure}
+
+Observem que obtenim unes rectes prou bones, fet que ens indica que les dades experimentals es comporten de forma similar a la predicció teòrica. Si, a més a més, comparem els valors de les pendents amb el valor esperat ${-Q_L}/{2,303V}$:
+
+\begin{itemize}
+    \item \textbf{Cabal 203,33 mL/min:} Obtenim un pendent teòric de \( -0,0546 \, \text{min}^{-1} \)
+    \item \textbf{Cabal 253,33 mL/min:} Obtenim un pendent teòric de \( -0,0680 \, \text{min}^{-1} \)
+    \item \textbf{Cabal 303,33 mL/min:} Obtenim un pendent teòric de \( -0,0815 \, \text{min}^{-1} \)
+\end{itemize}
+
+Així doncs, observem que els valors del pendent es desvien lleugerament dels esperats. Tanmateix, aquesta desviació la podem atribuir a errors experimentals i, donat que els valors resegueixen un comportament similar a l'esperat, podem assumir que les nostres dades segueixen la predicció teòrica.
+
+
+\section{Conclusions}
+
+
+
+\newpage
+\appendix
+{\Huge \textbf{Annexos}}
+
+\section{Calibratge de la bomba d'entrada}
+L'objectiu del calibratge és trobar per quins valors de rpm aconseguim treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$. 
+
+Per calibrar la bomba hem fet un seguit de mesures dels volums omplits per aquesta corresponents a una serie de valors de revolucions per minut (rpm) en un temps $t = 3$ min. Els valors obtinguts es poden veure a \ref{fig1}.
+
+L'equació obtinguda amb els nostres punts experimentals és $y=7.0893x-16.071$, amb una $R^2 = 0.9995$, valor que ens indica que les nostres mesures tenen una bona correlació lineal.
+
+A partir d'aquí calculem els cabals corresponents a cada valor de revolucions per minut usant que
+
+\begin{equation}
+    Q_L = \frac{V}{t}
+\end{equation}
+
+on, de nou, $t=3$ min. Amb això fàcilment es pot determinar que els valors de rpm de la bomba necessaris per treballar a uns cabals de 200 $\frac{\text{mL}}{\text{min}}$, 250 $\frac{\text{mL}}{\text{min}}$ i 300 $\frac{\text{mL}}{\text{min}}$ són els donats a la taula \ref{tab1}.
+
+\section{Mesura del volum del tanc}
+Per tal de mesurar el volum del tanc amb el que hem treballat hem usat dos mètodes distints, tenint cura que les condicions de mesura eren exactament les condicions d'operació del tanc (agitador connectat al 10$\%$ de la seva potència màxima, sense xocar amb les parets del recipient i a una alçada fixada). Les dues metologies han estat:
+\begin{enumerate}
+    \item Omplir el tanc amb aigua i connectar la bomba de sortida. Quan la quantitat d'aigua que surt pel cabal de sortida és zero, mesurar tot el volum contingut al recipient (usant material volumètric del laboratori).
+    \item Amb el tanc buit, connectar les bombes d'entrada i sortida. Mesurar el temps que triga a omplir-se el reactor. Amb aquest temps i el cabal (que és conegut, donat el valor de rpm de la bomba), es pot determinar $V$ usant
+    \begin{equation}
+        V = Q_L \cdot t
+    \end{equation}
+\end{enumerate}
+El resultats obtinguts amb cada mètode es poden veure a la corresponent secció d'aquest informe.
+
+\section{Presa de dades experimentals}
+Per tal de trobar les temperatures de sortida usant els diferents cabals proposats pel guió, hem efectuat mesures de la temperatura a dins del tanc, que prèviament havia estat omplert amb aigua a 90 ºC, cada 30 segons durant els primers 5 minuts i després cada minut, fins que la temperatura del tanc ha estat uns 10-15 ºC superior a la del tanc pulmó.
+
+\section{Enllaç al Repositori de \textit{GitHub}}
+A continuació adjuntem l'enllaç al repositori de \textit{GitHub} on podeu trobar el codi per representar les gràfiques usant \textit{Fortran} i \textit{Gnuplot}: \url{https://github.com/isaacbg25/labfeq}.
 
 
 \end{document}
